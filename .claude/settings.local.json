@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npm create *)",
+      "Bash(npx wxt@latest *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npm ls *)",
+      "PowerShell(node U:\\\\context-bridge\\\\scripts\\\\generate-icons.js)"
+    ]
+  }
+}

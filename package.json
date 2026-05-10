@@ -1,0 +1,41 @@
+{
+  "name": "context-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "build:zip": "wxt zip",
+    "postinstall": "wxt prepare",
+    "type-check": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarshcodehub/context-bridge.git"
+  },
+  "keywords": [],
+  "author": "Utkarsh",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/utkarshcodehub/context-bridge/issues"
+  },
+  "homepage": "https://github.com/utkarshcodehub/context-bridge#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/chrome": "^0.1.42",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@wxt-dev/module-react": "^1.2.2",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
+    "wxt": "^0.20.25"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}
